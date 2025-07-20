@@ -126,7 +126,7 @@ describe('Streaming Integration Tests', () => {
                 document.body.appendChild(modal);
               }}
             >
-              Abspielen
+              Regarder
             </button>
           </div>
         </div>
@@ -139,7 +139,7 @@ describe('Streaming Integration Tests', () => {
     expect(screen.getByTestId('test-app')).toBeInTheDocument();
     expect(screen.getByText('Fight Club')).toBeInTheDocument();
 
-    // 2. Klicke auf Abspielen-Button vom Hero
+    // 2. Klicke auf Regarder-Button vom Hero
     const heroPlayButton = screen.getByTestId('hero-play-button');
     fireEvent.click(heroPlayButton);
 
@@ -187,7 +187,7 @@ describe('Streaming Integration Tests', () => {
                 document.body.appendChild(modal);
               }}
             >
-              Abspielen
+              Regarder
             </button>
             <button data-testid="trailer-button">Trailer</button>
           </div>
@@ -205,7 +205,7 @@ describe('Streaming Integration Tests', () => {
     expect(screen.getByTestId('play-button')).toBeInTheDocument();
     expect(screen.getByTestId('trailer-button')).toBeInTheDocument();
 
-    // 3. Klicke auf Abspielen-Button
+    // 3. Klicke auf Regarder-Button
     const playButton = screen.getByTestId('play-button');
     fireEvent.click(playButton);
 
@@ -336,7 +336,7 @@ describe('Streaming Integration Tests', () => {
       <div data-testid="responsive-test">
         <div className="flex flex-col sm:flex-row gap-3">
           <button className="bg-white text-black px-8 py-3 rounded-md font-bold text-lg">
-            Abspielen
+            Regarder
           </button>
           <button className="bg-gray-600 bg-opacity-70 text-white px-8 py-3 rounded-md">
             Trailer

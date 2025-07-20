@@ -266,7 +266,7 @@ const HeroBanner = ({ movie }) => {
               className="flex items-center justify-center gap-3 bg-white text-black px-8 py-4 rounded-md text-lg font-bold hover:bg-gray-200 transition-colors duration-200 min-w-40 shadow-lg"
             >
               <FaPlay className="text-xl" />
-              <span>Abspielen</span>
+              <span>Regarder</span>
             </button>
 
             <Link

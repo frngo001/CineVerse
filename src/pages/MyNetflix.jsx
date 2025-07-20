@@ -56,7 +56,7 @@ const MyNetflix = () => {
       {/* Header */}
       <div className="px-4 md:px-8 lg:px-16 pt-20 pb-8">
         <h1 className="text-3xl md:text-4xl font-bold mb-2">
-          Mon Netflix
+          Mon compte
         </h1>
         <p className="text-gray-400 text-lg">
           Bienvenue, {currentProfile?.name}

@@ -183,7 +183,7 @@ const TvDetails = () => {
                       className="flex items-center justify-center space-x-3 bg-white text-black px-8 py-3 rounded-md font-bold text-lg hover:bg-gray-200 transition-all duration-200 shadow-lg"
                     >
                       <FaPlay />
-                      <span>Abspielen</span>
+                      <span>Regarder</span>
                     </button>
                     <button
                       onClick={() => setShowTrailer(true)}

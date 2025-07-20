@@ -40,14 +40,14 @@ npm run test:ui
 - ✅ Responsive Design
 
 ### 🎞️ MovieDetails Tests
-- ✅ "Abspielen" Button öffnet StreamingModal
+- ✅ "Regarder" Button öffnet StreamingModal
 - ✅ API-Calls werden korrekt ausgeführt
 - ✅ Movie-Daten werden angezeigt
 - ✅ Error-States bei API-Fehlern
 - ✅ Button-Styling und Layout
 
 ### 🎪 HeroBanner Tests
-- ✅ "Abspielen" Button funktioniert
+- ✅ "Regarder" Button funktioniert
 - ✅ Movie vs TV-Serie Erkennung
 - ✅ Media-Type Handling
 - ✅ Responsive Layout
@@ -70,7 +70,7 @@ expect(iframe).toHaveAttribute('title', 'VidPlay Video Player');
 
 ### ✅ Button-Funktionalität
 ```javascript
-// Überprüft dass "Abspielen" Button das Modal öffnet
+// Überprüft dass "Regarder" Button das Modal öffnet
 fireEvent.click(playButton);
 expect(screen.getByTestId('streaming-modal')).toBeInTheDocument();
 ```
