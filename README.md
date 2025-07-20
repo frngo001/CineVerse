@@ -2,6 +2,19 @@
 
 Welcome to CineVerse, a modern and elegant streaming platform that brings you closer to the entertainment you love. Discover, explore, and enjoy thousands of movies and TV shows with an intuitive, Netflix-inspired interface.
 
+<img width="1440" height="825" alt="image" src="https://github.com/user-attachments/assets/9ae21d94-b6e7-4e9a-b9dd-652ed93710bf" />
+
+## 
+
+
+<img width="1436" height="777" alt="image" src="https://github.com/user-attachments/assets/29143a6a-bf1f-468f-86b6-3f20d52f3c59" />
+
+##
+
+<img width="1436" height="777" alt="image" src="https://github.com/user-attachments/assets/d27d706f-ad67-4808-92a0-24fa7c60f499" />
+
+
+
 ## ✨ What is CineVerse?
 
 CineVerse is a comprehensive streaming application that provides users with a seamless entertainment experience. Whether you're looking for the latest blockbusters, classic films, trending TV series, or hidden gems, CineVerse has something for everyone.
