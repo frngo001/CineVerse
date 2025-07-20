@@ -65,3 +65,6 @@ CineVerse is perfect for:
 With CineVerse, entertainment is more than just watching - it's about discovering, exploring, and connecting with stories that matter to you. Our platform combines the best of modern streaming technology with a user-friendly design to create an unforgettable viewing experience.
 
 Start your journey with CineVerse today and discover a world of entertainment at your fingertips!
+
+https://cineversefilm.netlify.app/
+
