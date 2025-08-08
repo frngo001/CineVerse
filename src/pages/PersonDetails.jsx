@@ -205,11 +205,11 @@ const PersonDetails = () => {
           </div>
 
           {/* Credits Grid */}
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8 mb-8 px-4">
             {activeTab === 'movies' ? (
               movieCreditsToShow.length > 0 ? (
                 movieCreditsToShow.map((movie) => (
-                  <MovieCard key={movie.id} movie={movie} type="movie" />
+                  <MovieCard key={movie.id} movie={movie} type="movie" className="transform hover:scale-105 transition-transform duration-200" />
                 ))
               ) : (
                 <div className="col-span-full text-center py-8">
@@ -219,7 +219,7 @@ const PersonDetails = () => {
             ) : (
               tvCreditsToShow.length > 0 ? (
                 tvCreditsToShow.map((tvShow) => (
-                  <MovieCard key={tvShow.id} movie={tvShow} type="tv" />
+                  <MovieCard key={tvShow.id} movie={tvShow} type="tv" className="transform hover:scale-105 transition-transform duration-200" />
                 ))
               ) : (
                 <div className="col-span-full text-center py-8">
