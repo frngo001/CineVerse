@@ -26,6 +26,9 @@ const Footer = () => {
               <p>© {new Date().getFullYear()} CineVerse. Tous droits réservés.</p>
               <p>Plateforme de démonstration inspirée des meilleurs services de streaming</p>
               <p>Données fournies par The Movie Database (TMDb)</p>
+              <p className="pt-2">
+                Powered with by Franc Schlaumeier
+              </p>
             </div>
           </div>
         </div>
